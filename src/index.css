@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* -----------------Navbar Start----------------------------- */
+.navbar{
+  border:1px solid black;
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  padding :15px;
+  height:50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar a{
+  text-decoration: none;
+  text-align: center;
+  color: rgba(3, 18, 34, 0.784);
+  margin-top: 15px;
+  font-size: 20px;
+}
+.navbar a.active{
+  background-color: transparent;
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  width:5rem;
+}
+
+/* -------------------Navbar End---------------------- */
+
+/* ----------------------Login, signup start------------------------- */
+.bgc{
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  width:50rem;
+  display: grid;
+  align-content: space-evenly;
+  margin-left: 23rem;
+  margin-top: 8.5rem;
+  
+}
+.sign-up input{
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: transparent;
+  height: 2rem;
+  width: 20rem;
+  font-size: 20px;
+
+}
+.sign-up button{
+  background-color: transparent;
+  width:6rem;
+  height:2rem;
+  font-size: 17px;
+  border-radius: 5px;
+}
+/* ------------------------Login,signup End------------------------------ */
+/* ----------------Profile Start--------------------------- */
+.bgcprofile{
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  width:50rem;
+  height: 19rem;
+  margin-left: 25rem;
+  margin-top: 10rem;
+
+}
+
+.bgcprofile button{
+  background-color: transparent;
+  width:6rem;
+  height:2rem;
+  font-size: 20px;
+  border-radius: 5px;
+}
+/* --------------------------home start------------------------------ */
+
+.Home{
+  display: grid;
+  grid-template-columns: repeat(2,4fr);
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  width:80rem;
+  height: 32rem;
+  margin-top: 4rem;
+  margin-left: 8rem;
+}
+.Home .item1 h2{
+  margin-top: 4rem;
+  font-size: 4.3rem;
+}
+.Home a{
+  text-decoration: none;
+  padding:10px;
+  text-align: center;
+  color: rgba(3, 18, 34, 0.784);
+  margin-top: 15px;
+  font-size: 20px;
+}
+.Home a.active{
+  background-color: transparent;
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  width:5rem;
+}
+/* -------------Home end----------------- */
+
+/* --------------------About us start----------------- */
+
+.about1{
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  width:70rem;
+  margin-top: 4rem;
+  text-align: center;
+  margin-left: 12.4rem;
+}
+.about1 a{
+  text-decoration: none;
+  padding:20px;
+  text-align: center;
+  color: rgba(3, 18, 34, 0.784);
+  margin-top: 15px;
+  font-size: 20px;
+}
+.about1 a.active{
+  background-color: transparent;
+  border: 1px solid rgba(3, 18, 34, 0.784);
+}
+.about1 h1{
+  font-size: 35px;
+}
+.about1 ul{
+  list-style-type: none;
+  font-size: 18px;
+}
+.about1 p{
+  font-size: 25px;
+  margin: 2rem 5rem;
+}
+.about1 h2{
+  font-size: 30px;
+}
+
+/* --------------aboutus start------------ */
+
+/* ------------contact start-------------- */
+.contact1{
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  width:80rem;
+  margin-top: 4rem;
+  text-align: center;
+  margin-left: 8rem;
+}
+.contact1 a{
+  text-decoration: none;
+  padding:20px;
+  text-align: center;
+  color: rgba(3, 18, 34, 0.784);
+  margin-top: 15px;
+  font-size: 20px;
+}
+.contact1 a.active{
+  background-color: transparent;
+  border: 1px solid rgba(3, 18, 34, 0.784);
+}
+.contact1 .contact{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+}
+.contact1 .contactus-container{
+  display:grid;
+  border:2px solid E4EfE9;
+  width:35rem;
+  margin: 2rem;
+  height:30rem
+}
+.contact1 .message-container{
+  font-size: 25px;  
+  padding-left: 20px;
+  text-align: center;
+}
+.contact1 .grid-left{
+  display:grid;
+  grid-template: 4fr/1fr 2fr;
+}
+
+.contact1 .it1{
+  padding:10px;
+  font-size:25px;
+
+}
+.contact1 .it2{
+  padding:10px;
+  font-size:20px;
+}
+.contact1 .image-contact img{
+  border:2px solid rgb(16, 16, 16);
+
+  width:25rem;
+  height:20rem;
+  margin-top: 3.6rem;
+  
+}
+
+.contact1 .message-container input,textarea{
+  border-radius: 5px;
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  background-color: transparent;
+}
+.contact1 .f-name{
+  width:35rem;
+  height: 35px;
+  padding:1opx;
+  font-size: 20px;
+}
+.contact1 .l-name{
+  width:35rem;
+  height: 35px;
+  padding:1opx;
+  font-size: 20px;
+}
+.contact1 .phone1{
+  width:70rem;
+  height: 35px;
+  padding:10px;
+  font-size: 20px;
+}
+.contact1 .mail1{
+  width:70rem;
+  height: 35px;
+  padding:10px;
+  font-size: 20px;
+}
+.contact1 .mess1{
+  width:70rem;
+  height: 200px;
+  padding:10px;
+  font-size: 20px;
+}
+.contact1 button{
+  text-align: center;
+  width: 100px;
+  height:40px;
+  font-size: 25px;
+  background-color: transparent;
+}
+/* ---------------------Admin Start------------ */
+.admin
+{
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  width:80rem;
+  margin-top: 4rem;
+  text-align: center;
+  margin-left: 8rem;
+}
+.admin form{
+    margin-bottom:20px;
+}
+.admin label{
+    margin-bottom:8px;
+}
+.admin input{
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: transparent;
+  height: 2rem;
+  width: 20rem;
+  font-size: 20px;
+
+}
+.admin button{
+  background-color: transparent;
+  width:6rem;
+  height:2rem;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.admin select{
+    background-color:transparent;
+    border: 1px solid rgba(3, 18, 34, 0.784);
+    border-radius:5px;
+    height: 2rem;
+  width: 20rem;
+  font-size: 18px;
+}
+.admin label{
+  font-size: 25px;
+}
+.admin table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+.admin th,td{
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  padding:10px;
+    text-align:center;
+}
+
+.admin button{
+  margin:5px;
+  
+}
+.admin .flex-items{
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  background-color: transparent;
+  width: 300px;
+
+}
+.admin button{
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  background-color: transparent;
+  width: 7rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+.admin h2{
+  font-weight: lighter;
+  font-size: 20px;
+}
+.admin strong{
+  font-size:26px;
+}
+.admin .flex-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+/* ---------------------admin end-------------------- */
+/* ----------------------------user start------------------- */
+.user{
+  background:linear-gradient(#E4EfE9,#93A5CF);
+  width:80rem;
+  margin-top: 4rem;
+  text-align: center;
+  margin-left: 8rem;
+}
+.user .flex-items{
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  background-color: transparent;
+  width: 300px;
+
+}
+.user button{
+  border: 1px solid rgba(3, 18, 34, 0.784);
+  background-color: transparent;
+  width: 7rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+.user h2{
+  font-weight: lighter;
+  font-size: 20px;
+}
+.user strong{
+  font-size:26px;
+}
+.user .flex-container{
+  display: flex;
+  justify-content: space-evenly;
+}

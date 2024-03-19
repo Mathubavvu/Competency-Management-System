@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "username": "Adam",
+      "email": "e@gmail.com",
+      "password": "1234",
+      "id": "805c"
+    },
+    {
+      "id": "232d",
+      "username": "Madhu",
+      "email": "m@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "39d7",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "abc"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "photo": "https://pxbar.com/wp-content/uploads/2023/09/cute-cartoon-girl-dp.jpg",
+      "name": "SR",
+      "email": "sr@gmail.com",
+      "location": "Bangalore",
+      "talent": "Software Development",
+      "role": "Employee"
+    },
+    {
+      "id": "2",
+      "photo": "https://img.lovepik.com/free-png/20210919/lovepik-handsome-dad-png-image_400320411_wh1200.png",
+      "name": "TR",
+      "email": "tr@gmail.com",
+      "location": "Chennai",
+      "talent": "Cybersecurity",
+      "role": "Admin"
+    },
+    {
+      "id": "4",
+      "photo": "https://img.freepik.com/premium-photo/cartoon-man-suit-holding-briefcase_81048-24081.jpg",
+      "name": "ST",
+      "email": "st@gmail.com",
+      "location": "Kuwait",
+      "talent": "Problem-Solving",
+      "role": "Admin"
+    }
+  ]
+}
